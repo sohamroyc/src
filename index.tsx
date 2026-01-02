@@ -58,21 +58,21 @@ const PROJECTS = [
     description: "Agri Grow — a small showcase and tools collection focused on agriculture growth workflows and data-driven UI patterns. Built with HTML and CSS.",
     tags: ["HTML", "CSS"],
     link: "https://github.com/sohamroyc/Aiportfolio",
-    image: new URL('./journey4.png', import.meta.url).href
+    image: "/journey4.png"
   },
   {
     title: "Pocketdoctor",
     description: "A lightweight web demo for healthcare resources and UI patterns, implemented with HTML/CSS and minimal JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
     link: "https://github.com/sohamroyc/Pocketdoctor",
-    image: new URL('./journey5.png', import.meta.url).href
+    image: "/journey5.png"
   },
   {
     title: "Margdarsak AI",
     description: "Margdarsak AI — an assistant-focused project extending the original billing system into an AI-enhanced guidance tool. Originally implemented as a Java desktop app and extended with modern interfaces.",
     tags: ["Java", "AI"],
     link: "https://github.com/sohamroyc/Electricity_Billing_System-master",
-    image: new URL('./journey6.png', import.meta.url).href
+    image: "/journey6.png"
   }
 ];
 
@@ -81,21 +81,21 @@ const JOURNEY_ITEMS = [
     year: "2025",
     title: "Google Student Ambassador",
     achievement: "Selected as a Google Student Ambassador to promote tech innovation and community engagement on campus.",
-    image: "journey1.jpg",
+    image: "/journey1.jpg",
     icon: <Trophy className="w-5 h-5" />
   },
  {
   year: "2025",
   title: "SAP TechEd 2025",
   achievement: "Attended SAP TechEd 2025, engaging with sessions on SAP BTP, Generative AI, enterprise cloud-native development, and scalable architectures. Connected with industry experts and gained practical insights into modern enterprise solutions.",
-  image: "journey2.jpg",
+  image: "/journey2.jpg",
   icon: <Briefcase className="w-5 h-5" />
 },
 {
   year: "2025",
   title: "Community Manager at LNC",
   achievement: "Served as Community Manager at LNC, a vibrant developer community focused on open source collaboration, hackathons, and hands-on coding sessions. Facilitated project collaboration, mentorship, and growth opportunities for developers, turning caffeine into code and shared success.",
-  image: "journey3.jpeg",
+  image: "/journey3.jpeg",
   icon: <Code2 className="w-5 h-5" />
 }
 
